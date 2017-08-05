@@ -48,27 +48,27 @@ public class Competition extends AppCompatActivity {
 
         List<User> userList = new ArrayList<>();
         userList.add(new User(R.drawable.robowar,
-                "Robowar"));
+                "RoboKriti"));
         userList.add(new User(R.drawable.tekken,
-                "Tekken"));
+                "AbNitio"));
         userList.add(new User(R.drawable.nfs,
-                "NFS"));
+                "LAN Gaming"));
         userList.add(new User(R.drawable.bomb,
-                "Bomb Diffusion"));
+                "Techneeti"));
         userList.add(new User(R.drawable.laserstrike,
-                "Laser Strike"));
+                "BridgeKriti"));
         userList.add(new User(R.drawable.chess,
-                "Electronic Chess"));
+                "Code-e-thon"));
         userList.add(new User(R.drawable.sherlocked,
-                "Sherlocked"));
+                "World Parliament"));
         userList.add(new User(R.drawable.turing,
-                "Turing"));
+                "Enigma"));
         userList.add(new User(R.drawable.circuitwiz,
-                "Circuit Wizard"));
+                "TechParstuti"));
         userList.add(new User(R.drawable.reflex,
-                "Reflex"));
+                "Junkyard"));
         userList.add(new User(R.drawable.eartnew,
-                "Electronic Arts"));
+                "Manthan"));
 
         return userList;
     }
