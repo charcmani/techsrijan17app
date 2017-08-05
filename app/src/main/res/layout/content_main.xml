@@ -61,7 +61,7 @@
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:textSize="28sp"
-                    android:text="Welcome"
+                    android:text="TechSrijan"
                     />
                 <TextView
                     android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:textSize="28sp"
-                    android:text="to Robomania"
+                    android:text="2k17"
                     />
 
                 <TextView
@@ -83,7 +83,7 @@
                     android:padding="15dp"
                     android:textColor="#ffffff"
                     android:textSize="18dp"
-                    android:text="Robomania is the annual science and technology fest of MMMUT Gorakhpur. Robomania is known for hosting a variety of events that includes competitions, lectures and workshops."/>
+                    android:text="In this era of technological advancement and spirit of leaping forward in everyway, TechSrijan returns in its 18 th edition, bringing with it an experience of innovation, competition and learning that has become its hallmark over the years."/>
 
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:padding="15dp"
                     android:textColor="#ffffff"
                     android:textSize="18dp"
-                    android:text="Robomania is the coalescence of caliber and rewards, technical expertise and valor where budding engineers from across the nation compete."/>
+                    android:text="The classic events of TechSrijan shall return bigger and better and be joined by an injection of new exciting competitions. And obviously there's Matka for the gamer inside each of us. Moreover one can also head back indoors to listen to the varied profiles we have lined up for you, this season."/>
 
 
                 <TextView
@@ -106,7 +106,7 @@
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:textSize="22sp"
-                    android:text="3,4,5 March 2k17"
+                    android:text="22,23,24 September 2k17"
                     />
             </LinearLayout>
         </ScrollView>
