@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_laserstrike"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#543219"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.Laserstrike"
+    tools:showIn="@layout/activity_laserstrike">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/lstrikenew"
+            android:layout_margin="10dp"/>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#c0c0c0"/>
+
+        <ScrollView
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:text="If you spend hours playing conter strike,Laser strike is one for you. A simulation of counter strike, it leaves you thrilled and amazed. Two teams will be fighting simultaneously with the help of a sensor kit and a laser kit and members of one team will have to kill the members of the enemy team. It's a fun filled event, one simply can't resist to participate."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="SO WHAT ARE YOU WAITING FOR??? GET YOUR GUN OUT AND SHOOT!!!"/>
+                
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

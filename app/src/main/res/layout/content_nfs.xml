@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_nfs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#543219"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.NFS"
+    tools:showIn="@layout/activity_nfs">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/nfsnew"
+            android:layout_margin="10dp"/>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#c0c0c0"/>
+
+        <ScrollView
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:text="Need for speed brought to life..!! Get ready to experience a more thrilling, more exciting, larger than life gaming with the club's newly introduced event NFS, gripping you more and more with its magnanimous setup both literally and metaphorically! thrust your control skills at the stearing and race your opponent to the finish for a win..!!"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

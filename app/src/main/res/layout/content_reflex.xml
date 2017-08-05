@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_reflex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#543219"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.Reflex"
+    tools:showIn="@layout/activity_reflex">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/reflexpic"
+            android:id="@+id/imageView2" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#c0c0c0"/>
+
+        <ScrollView
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:text="Lots have been said in the past, lots have been achieved; what's the point in knowing them all, if you can't corroborate? Battles of brainpower have a unique characteristic of making even the bst of them all sweat it out. Can you beat the very best? Does it have it in you to bag the bragging rights?"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="Let the paper be your kingdom and you be the ruler. Check your proficiency in quant and general knowledge. Welcome knowedge with open hands and check your ability through our invincible event called Reflex which will boost your mind and enthusiasm, thrill and zeal."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

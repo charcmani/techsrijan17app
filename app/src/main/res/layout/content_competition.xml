@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_competition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.Competition"
+    tools:showIn="@layout/activity_competition">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvSingleUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+        >
+        <LinearLayout
+            android:id="@+id/linlay"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F0EDED"
+            >
+
+            <ImageView
+                android:id="@+id/ivEventPic"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:background="?android:selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/tvEventName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

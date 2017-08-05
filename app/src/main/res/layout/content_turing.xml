@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_turing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#543219"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.Turing"
+    tools:showIn="@layout/activity_turing">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/turing"
+            android:layout_margin="10dp"/>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#c0c0c0"/>
+
+        <ScrollView
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:text="Wake up the cryptanalyst sleeping inside, for the world is in trouble and the only weapon to fight this enemy, your mind. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="Have a test of your observation and searching skills and keep moving forward to crack subsequent denser grids. An experience like any other cross the maze and reach your destination the final frontier."/>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

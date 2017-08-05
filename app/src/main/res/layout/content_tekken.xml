@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tekken"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#543219"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muska.robomania.Tekken"
+    tools:showIn="@layout/activity_tekken">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tekken"
+            android:layout_margin="10dp"/>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#c0c0c0"/>
+
+        <ScrollView
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:text="Do you like playing fighting games? Do you love fighting games? What if you are one of the characters playing on grounds of MMMUT."/>
+                      <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:text="This event is the main attraction of Robomania. You can select your opponent and start playing Tekken virtually on the basis of movements of your hands and legs. Imagine yourself playing the fighting game in real way as if you are playing in fighting arena. Robotics club thus presents all new and different concept of virtual gaming in real way."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
